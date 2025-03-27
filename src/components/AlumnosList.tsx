@@ -1,7 +1,7 @@
 import React from 'react';
 
 function AlumnosList() {
-  return <>;
+  return <div></div>;
 }
 
 export default AlumnosList;

@@ -5,10 +5,10 @@ const octokit = new Octokit({
 });
 
 export const updateFile = async (content: string) => {
-  const response = await octokit.request('PUT /repos/{owner}/{repo}/contents/{path}', {
+  const response = await octokit.request('PUT /repos/cescarsoporte/ces/contents/{path}', {
     owner: 'cescarsoporte',
     repo: 'ces',
-    path: 'data/alumnos.json',
+    path: 'data/registros.json',
     message: 'Actualización desde la aplicación',
     content: btoa(unescape(encodeURIComponent(content))),
     sha: '' // Obtener el último SHA si existe
