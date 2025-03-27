@@ -1,7 +1,9 @@
 import React from 'react';
 
-function AlumnoForm() {
-  return <>;
-}
+const AlumnoForm: React.FC = () => (
+  <div>
+    {/* Aquí irá el formulario para gestionar datos de alumnos */}
+  </div>
+);
 
 export default AlumnoForm;

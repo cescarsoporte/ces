@@ -1,7 +1,9 @@
 import React from 'react';
 
-function AlumnosList() {
-  return <div></div>;
-}
+const AlumnosList: React.FC = () => (
+  <div>
+    {/* Formulario para Alumno */}
+  </div>
+);
 
 export default AlumnosList;

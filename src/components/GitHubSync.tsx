@@ -3,23 +3,34 @@ import { Button, Modal } from 'react-bootstrap';
 import { updateFile } from '../utils/github';
 import { getAllAlumnos } from '../utils/db';
 
-const GitHubSync = ({ onSync }: any) => {
+interface GitHubSyncProps {
+  onSync: () => void;
+}
+
+const GitHubSync: React.FC<GitHubSyncProps> = ({ onSync }) => {
   const [show, setShow] = useState(false);
 
+  const toggleModal = () => setShow((prev) => !prev);
+
   const handleSync = async () => {
-    const data = await getAllAlumnos();
-    await updateFile(JSON.stringify(data, null, 2));
-    onSync();
-    setShow(false);
+    try {
+      const data = await getAllAlumnos();
+      await updateFile(JSON.stringify(data, null, 2));
+      onSync();
+    } catch (error) {
+      console.error('Error al sincronizar con GitHub:', error);
+    } finally {
+      toggleModal();
+    }
   };
 
   return (
     <>
-      <Button variant="success" onClick={() => setShow(true)}>
+      <Button variant="success" onClick={toggleModal}>
         Guardar en GitHub
       </Button>
 
-      <Modal show={show} onHide={() => setShow(false)}>
+      <Modal show={show} onHide={toggleModal}>
         <Modal.Header closeButton>
           <Modal.Title>Confirmar sincronización</Modal.Title>
         </Modal.Header>
@@ -27,7 +38,7 @@ const GitHubSync = ({ onSync }: any) => {
           ¿Estás seguro de que quieres guardar los cambios en GitHub?
         </Modal.Body>
         <Modal.Footer>
-          <Button variant="secondary" onClick={() => setShow(false)}>
+          <Button variant="secondary" onClick={toggleModal}>
             Cancelar
           </Button>
           <Button variant="primary" onClick={handleSync}>
