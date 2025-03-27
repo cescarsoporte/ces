@@ -6,8 +6,8 @@ const octokit = new Octokit({
 
 export const updateFile = async (content: string) => {
   const response = await octokit.request('PUT /repos/{owner}/{repo}/contents/{path}', {
-    owner: 'TU_USUARIO',
-    repo: 'TU_REPO',
+    owner: 'cescarsoporte',
+    repo: 'ces',
     path: 'data/alumnos.json',
     message: 'Actualización desde la aplicación',
     content: btoa(unescape(encodeURIComponent(content))),

@@ -3,7 +3,7 @@ import { Button, Modal } from 'react-bootstrap';
 import { updateFile } from '../utils/github';
 import { getAllAlumnos } from '../utils/db';
 
-export const GitHubSync = ({ onSync }: any) => {
+const GitHubSync = ({ onSync }: any) => {
   const [show, setShow] = useState(false);
 
   const handleSync = async () => {
@@ -38,3 +38,5 @@ export const GitHubSync = ({ onSync }: any) => {
     </>
   );
 };
+
+export default GitHubSync;

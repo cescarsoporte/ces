@@ -1,0 +1,340 @@
+{
+  "Alumnos": [
+    {
+      "alumno_id": 1,
+      "num_orden": 1,
+      "nombre": "angel",
+      "apellido": "jimenez",
+      "curso": "1RO",
+      "seccion": "A",
+      "nivel": "Secundario",
+      "foto_path": "path",
+      "contactos": [
+        {
+          "contacto_id": 1,
+          "nombre": "rafael",
+          "apellido": "jimenez",
+          "parentesco": "padre",
+          "telefonos": [
+            {
+              "telefono_id": 1,
+              "numero": "5555555555",
+              "tipo": "trabajo",
+              "registros": [
+                {
+                  "registro_id": 1,
+                  "tipo_mov": "salida",
+                  "motivo": "diligencia",
+                  "observacion": "no hay observacion",
+                  "timestamp": "2024-03-18T11:30:00-05:00"
+                }
+              ]
+            },
+            {
+              "telefono_id": 2,
+              "numero": "5555555556",
+              "tipo": "casa",
+              "registros": [
+                {
+                  "registro_id": 2,
+                  "tipo_mov": "entrada",
+                  "motivo": "visita médica",
+                  "observacion": "ninguna",
+                  "timestamp": "2024-03-19T09:15:00-05:00"
+                }
+              ]
+            },
+            {
+              "telefono_id": 3,
+              "numero": "5555555557",
+              "tipo": "móvil",
+              "registros": [
+                {
+                  "registro_id": 3,
+                  "tipo_mov": "salida",
+                  "motivo": "reunión",
+                  "observacion": "urgente",
+                  "timestamp": "2024-03-20T14:00:00-05:00"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "contacto_id": 2,
+          "nombre": "luisa",
+          "apellido": "garcía",
+          "parentesco": "madre",
+          "telefonos": [
+            {
+              "telefono_id": 1,
+              "numero": "5555555558",
+              "tipo": "trabajo",
+              "registros": [
+                {
+                  "registro_id": 4,
+                  "tipo_mov": "entrada",
+                  "motivo": "permiso",
+                  "observacion": "retiro temprano",
+                  "timestamp": "2024-03-21T10:45:00-05:00"
+                }
+              ]
+            },
+            {
+              "telefono_id": 2,
+              "numero": "5555555559",
+              "tipo": "casa",
+              "registros": [
+                {
+                  "registro_id": 5,
+                  "tipo_mov": "salida",
+                  "motivo": "compra",
+                  "observacion": "supermercado",
+                  "timestamp": "2024-03-22T16:30:00-05:00"
+                }
+              ]
+            },
+            {
+              "telefono_id": 3,
+              "numero": "5555555560",
+              "tipo": "móvil",
+              "registros": [
+                {
+                  "registro_id": 6,
+                  "tipo_mov": "entrada",
+                  "motivo": "consulta",
+                  "observacion": "tarea escolar",
+                  "timestamp": "2024-03-23T08:00:00-05:00"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "alumno_id": 2,
+      "num_orden": 2,
+      "nombre": "sofía",
+      "apellido": "lópez",
+      "curso": "2DO",
+      "seccion": "B",
+      "nivel": "Secundario",
+      "foto_path": "path",
+      "contactos": [
+        {
+          "contacto_id": 1,
+          "nombre": "carlos",
+          "apellido": "lópez",
+          "parentesco": "padre",
+          "telefonos": [
+            {
+              "telefono_id": 1,
+              "numero": "5555555561",
+              "tipo": "trabajo",
+              "registros": [
+                {
+                  "registro_id": 7,
+                  "tipo_mov": "salida",
+                  "motivo": "viaje",
+                  "observacion": "negocios",
+                  "timestamp": "2024-03-24T07:00:00-05:00"
+                }
+              ]
+            },
+            {
+              "telefono_id": 2,
+              "numero": "5555555562",
+              "tipo": "casa",
+              "registros": [
+                {
+                  "registro_id": 8,
+                  "tipo_mov": "entrada",
+                  "motivo": "entrega",
+                  "observacion": "paquete",
+                  "timestamp": "2024-03-25T12:15:00-05:00"
+                }
+              ]
+            },
+            {
+              "telefono_id": 3,
+              "numero": "5555555563",
+              "tipo": "móvil",
+              "registros": [
+                {
+                  "registro_id": 9,
+                  "tipo_mov": "salida",
+                  "motivo": "paseo",
+                  "observacion": "parque",
+                  "timestamp": "2024-03-26T15:45:00-05:00"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "contacto_id": 2,
+          "nombre": "ana",
+          "apellido": "martínez",
+          "parentesco": "madre",
+          "telefonos": [
+            {
+              "telefono_id": 1,
+              "numero": "5555555564",
+              "tipo": "trabajo",
+              "registros": [
+                {
+                  "registro_id": 10,
+                  "tipo_mov": "entrada",
+                  "motivo": "reunión",
+                  "observacion": "colegio",
+                  "timestamp": "2024-03-27T09:30:00-05:00"
+                }
+              ]
+            },
+            {
+              "telefono_id": 2,
+              "numero": "5555555565",
+              "tipo": "casa",
+              "registros": [
+                {
+                  "registro_id": 11,
+                  "tipo_mov": "salida",
+                  "motivo": "médico",
+                  "observacion": "control",
+                  "timestamp": "2024-03-28T11:00:00-05:00"
+                }
+              ]
+            },
+            {
+              "telefono_id": 3,
+              "numero": "5555555566",
+              "tipo": "móvil",
+              "registros": [
+                {
+                  "registro_id": 12,
+                  "tipo_mov": "entrada",
+                  "motivo": "emergencia",
+                  "observacion": "accidente",
+                  "timestamp": "2024-03-29T17:20:00-05:00"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "alumno_id": 3,
+      "num_orden": 3,
+      "nombre": "diego",
+      "apellido": "rodríguez",
+      "curso": "3RO",
+      "seccion": "C",
+      "nivel": "Secundario",
+      "foto_path": "path",
+      "contactos": [
+        {
+          "contacto_id": 1,
+          "nombre": "jorge",
+          "apellido": "rodríguez",
+          "parentesco": "padre",
+          "telefonos": [
+            {
+              "telefono_id": 1,
+              "numero": "5555555567",
+              "tipo": "trabajo",
+              "registros": [
+                {
+                  "registro_id": 13,
+                  "tipo_mov": "salida",
+                  "motivo": "taller",
+                  "observacion": "vehículo",
+                  "timestamp": "2024-03-30T08:45:00-05:00"
+                }
+              ]
+            },
+            {
+              "telefono_id": 2,
+              "numero": "5555555568",
+              "tipo": "casa",
+              "registros": [
+                {
+                  "registro_id": 14,
+                  "tipo_mov": "entrada",
+                  "motivo": "familiar",
+                  "observacion": "visita",
+                  "timestamp": "2024-03-31T13:10:00-05:00"
+                }
+              ]
+            },
+            {
+              "telefono_id": 3,
+              "numero": "5555555569",
+              "tipo": "móvil",
+              "registros": [
+                {
+                  "registro_id": 15,
+                  "tipo_mov": "salida",
+                  "motivo": "deporte",
+                  "observacion": "práctica",
+                  "timestamp": "2024-04-01T16:00:00-05:00"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "contacto_id": 2,
+          "nombre": "patricia",
+          "apellido": "díaz",
+          "parentesco": "madre",
+          "telefonos": [
+            {
+              "telefono_id": 1,
+              "numero": "5555555570",
+              "tipo": "trabajo",
+              "registros": [
+                {
+                  "registro_id": 16,
+                  "tipo_mov": "entrada",
+                  "motivo": "tutoría",
+                  "observacion": "académica",
+                  "timestamp": "2024-04-02T10:00:00-05:00"
+                }
+              ]
+            },
+            {
+              "telefono_id": 2,
+              "numero": "5555555571",
+              "tipo": "casa",
+              "registros": [
+                {
+                  "registro_id": 17,
+                  "tipo_mov": "salida",
+                  "motivo": "compras",
+                  "observacion": "útiles",
+                  "timestamp": "2024-04-03T14:30:00-05:00"
+                }
+              ]
+            },
+            {
+              "telefono_id": 3,
+              "numero": "5555555572",
+              "tipo": "móvil",
+              "registros": [
+                {
+                  "registro_id": 18,
+                  "tipo_mov": "entrada",
+                  "motivo": "consulta",
+                  "observacion": "calificaciones",
+                  "timestamp": "2024-04-04T18:15:00-05:00"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
