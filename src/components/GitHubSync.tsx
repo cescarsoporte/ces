@@ -1,7 +1,7 @@
 import { useState } from 'react';
 import { Button, Modal } from 'react-bootstrap';
 import { updateFile } from '../utils/github';
-import { getAllAlumnos } from '../utils/db';
+import { getAll } from '../utils/db';
 
 interface GitHubSyncProps {
   onSync: () => void;
@@ -14,8 +14,8 @@ const GitHubSync: React.FC<GitHubSyncProps> = ({ onSync }) => {
 
   const handleSync = async () => {
     try {
-      const data = await getAllAlumnos();
-      await updateFile(JSON.stringify(data, null, 2));
+      const data = await getAll('Alumnos');
+      await updateFile(JSON.stringify({ Alumnos: data }, null, 2));
       onSync();
     } catch (error) {
       console.error('Error al sincronizar con GitHub:', error);

@@ -4,9 +4,7 @@ const DB_NAME = 'registrosDB';
 const DB_VERSION = 1;
 
 const objectStores = [
-  { name: 'alumnos', keyPath: 'alumno_id', indexes: [{ name: 'curso', key: 'curso' }] },
-  // Agrega más definiciones de object stores aquí, por ejemplo:
-  // { name: 'contactos', keyPath: 'contacto_id', indexes: [{ name: 'nombre', key: 'nombre' }] },
+  { name: 'Alumnos', keyPath: 'alumno_id', indexes: [{ name: 'curso', key: 'curso' }] },
 ];
 
 export const initDB = async () => {
@@ -22,7 +20,7 @@ export const initDB = async () => {
   });
 };
 
-// Operaciones CRUD genéricas
+// CRUD operations adapted for "Alumnos"
 export const getAll = async (storeName: string) => {
   const db = await initDB();
   return db.getAll(storeName);

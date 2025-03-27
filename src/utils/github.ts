@@ -6,11 +6,10 @@ const octokit = new Octokit({
 
 export const updateFile = async (content: string) => {
   try {
-    // Obtiene el SHA del archivo actual
     const { data: fileData } = await octokit.request('GET /repos/cescarsoporte/ces/contents/{path}', {
       owner: 'cescarsoporte',
       repo: 'ces',
-      path: 'data/registros.json',
+      path: 'src/data/registros.json',
     });
 
     if (Array.isArray(fileData)) {
@@ -18,11 +17,10 @@ export const updateFile = async (content: string) => {
     }
     const sha = fileData.sha;
 
-    // Actualiza el archivo con el nuevo contenido
     const response = await octokit.request('PUT /repos/cescarsoporte/ces/contents/{path}', {
       owner: 'cescarsoporte',
       repo: 'ces',
-      path: 'data/registros.json',
+      path: 'src/data/registros.json',
       message: 'Actualización desde la aplicación',
       content: btoa(unescape(encodeURIComponent(content))),
       sha,
