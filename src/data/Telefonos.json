@@ -1,0 +1,38 @@
+[
+    {
+        "telefono_id": 1,
+        "contacto_id": 1,
+        "numero": "5551111111",
+        "tipo": "trabajo"
+    },
+    {
+        "telefono_id": 2,
+        "contacto_id": 1,
+        "numero": "5552222222",
+        "tipo": "personal"
+    },
+    {
+        "telefono_id": 3,
+        "contacto_id": 1,
+        "numero": "5553333333",
+        "tipo": "casa"
+    },
+    {
+        "telefono_id": 4,
+        "contacto_id": 2,
+        "numero": "5554444444",
+        "tipo": "trabajo"
+    },
+    {
+        "telefono_id": 5,
+        "contacto_id": 2,
+        "numero": "5555555555",
+        "tipo": "personal"
+    },
+    {
+        "telefono_id": 6,
+        "contacto_id": 2,
+        "numero": "5556666666",
+        "tipo": "casa"
+    }
+]
