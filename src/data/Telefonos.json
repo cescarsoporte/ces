@@ -1,0 +1,32 @@
+[
+    {
+        "contacto_id": 1,
+        "numero": "5551111111",
+        "tipo": "trabajo"
+    },
+    {
+        "contacto_id": 1,
+        "numero": "5552222222",
+        "tipo": "personal"
+    },
+    {
+        "contacto_id": 1,
+        "numero": "5553333333",
+        "tipo": "casa"
+    },
+    {
+        "contacto_id": 2,
+        "numero": "5554444444",
+        "tipo": "trabajo"
+    },
+    {
+        "contacto_id": 2,
+        "numero": "5555555555",
+        "tipo": "personal"
+    },
+    {
+        "contacto_id": 2,
+        "numero": "5556666666",
+        "tipo": "casa"
+    }
+]

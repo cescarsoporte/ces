@@ -1,0 +1,92 @@
+[
+    {
+        "num_orden": 1,
+        "nombre": "Juan",
+        "apellido": "Pérez",
+        "curso": "1RO",
+        "seccion": "A",
+        "nivel": "Secundario",
+        "foto_path": "path1"
+    },
+    {
+        "num_orden": 2,
+        "nombre": "María",
+        "apellido": "Gómez",
+        "curso": "2DO",
+        "seccion": "B",
+        "nivel": "Secundario",
+        "foto_path": "path2"
+    },
+    {
+        "num_orden": 3,
+        "nombre": "Carlos",
+        "apellido": "López",
+        "curso": "3RO",
+        "seccion": "C",
+        "nivel": "Secundario",
+        "foto_path": "path3"
+    },
+    {
+        "num_orden": 4,
+        "nombre": "Ana",
+        "apellido": "Martínez",
+        "curso": "4TO",
+        "seccion": "A",
+        "nivel": "Secundario",
+        "foto_path": "path4"
+    },
+    {
+        "num_orden": 5,
+        "nombre": "Luis",
+        "apellido": "Hernández",
+        "curso": "5TO",
+        "seccion": "B",
+        "nivel": "Secundario",
+        "foto_path": "path5"
+    },
+    {
+        "num_orden": 6,
+        "nombre": "Sofía",
+        "apellido": "Ramírez",
+        "curso": "1RO",
+        "seccion": "C",
+        "nivel": "Secundario",
+        "foto_path": "path6"
+    },
+    {
+        "num_orden": 7,
+        "nombre": "Diego",
+        "apellido": "Torres",
+        "curso": "2DO",
+        "seccion": "A",
+        "nivel": "Secundario",
+        "foto_path": "path7"
+    },
+    {
+        "num_orden": 8,
+        "nombre": "Valeria",
+        "apellido": "Flores",
+        "curso": "3RO",
+        "seccion": "B",
+        "nivel": "Secundario",
+        "foto_path": "path8"
+    },
+    {
+        "num_orden": 9,
+        "nombre": "Javier",
+        "apellido": "Castro",
+        "curso": "4TO",
+        "seccion": "C",
+        "nivel": "Secundario",
+        "foto_path": "path9"
+    },
+    {
+        "num_orden": 10,
+        "nombre": "Camila",
+        "apellido": "Morales",
+        "curso": "5TO",
+        "seccion": "A",
+        "nivel": "Secundario",
+        "foto_path": "path10"
+    }
+]

@@ -1,0 +1,26 @@
+[
+    {
+        "alumno_id": 1,
+        "nombre": "Pedro",
+        "apellido": "Pérez",
+        "parentesco": "Padre"
+    },
+    {
+        "alumno_id": 1,
+        "nombre": "Laura",
+        "apellido": "Pérez",
+        "parentesco": "Madre"
+    },
+    {
+        "alumno_id": 2,
+        "nombre": "Carlos",
+        "apellido": "Gómez",
+        "parentesco": "Padre"
+    },
+    {
+        "alumno_id": 2,
+        "nombre": "Ana",
+        "apellido": "Gómez",
+        "parentesco": "Madre"
+    }
+]

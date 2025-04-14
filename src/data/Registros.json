@@ -1,0 +1,50 @@
+[
+    {
+        "alumno_id": 1,
+        "telefono_id": 1,
+        "tipo_mov": "entrada",
+        "motivo": "reunión",
+        "observacion": "ninguna",
+        "timestamp": "2025-03-18T09:00:00-05:00"
+    },
+    {
+        "alumno_id": 1,
+        "telefono_id": 1,
+        "tipo_mov": "salida",
+        "motivo": "diligencia",
+        "observacion": "ninguna",
+        "timestamp": "2025-03-18T11:00:00-05:00"
+    },
+    {
+        "alumno_id": 2,
+        "telefono_id": 2,
+        "tipo_mov": "entrada",
+        "motivo": "clase",
+        "observacion": "ninguna",
+        "timestamp": "2025-03-18T08:30:00-05:00"
+    },
+    {
+        "alumno_id": 2,
+        "telefono_id": 2,
+        "tipo_mov": "salida",
+        "motivo": "receso",
+        "observacion": "ninguna",
+        "timestamp": "2025-03-18T10:30:00-05:00"
+    },
+    {
+        "alumno_id": 3,
+        "telefono_id": 3,
+        "tipo_mov": "entrada",
+        "motivo": "trabajo",
+        "observacion": "ninguna",
+        "timestamp": "2025-03-18T09:15:00-05:00"
+    },
+    {
+        "alumno_id": 3,
+        "telefono_id": 3,
+        "tipo_mov": "salida",
+        "motivo": "almuerzo",
+        "observacion": "ninguna",
+        "timestamp": "2025-03-18T12:00:00-05:00"
+    }
+]
